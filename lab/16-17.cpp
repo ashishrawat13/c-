@@ -20,7 +20,7 @@ int main() {
   cout<<"Input %d integers\n"<<n;
   for (c = 0; c < n; c++) 
   {
-    cin>>&b[c];
+    cin>>b[c];
   }
 
   merge(a, m, b, n, sorted);
